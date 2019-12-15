@@ -1,0 +1,29 @@
+﻿.btncusCancel {
+    background-color: #f36a05;
+    border-color: #e75650;
+    color: #fff;
+    padding: 6px 7px;
+}
+
+.btncusSave {
+    background-color: #05a9f3;
+    border-color: #00a5ef;
+    color: #fff;
+    padding: 6px 7px;
+}
+
+.removePadding {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    color: #495057 !important;
+    background-color: #fff;
+    border-color: #dee2e6 #dee2e6 #fff;
+    font-weight: bold;
+}
+.topmenuActive {
+    color: blue !important;
+    border-top: 3px solid #4d7496 !important;
+}

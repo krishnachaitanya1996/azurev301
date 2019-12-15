@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyStayAPI", "MyStay\MyStayAPI.csproj", "{D7CFD781-70EA-4639-AEFA-C6080DCC184A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{A194CBD7-F942-4A37-8D07-FF913E61BFCD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{8DF4B545-C961-43DA-9424-E4B1D175F418}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyStay.Core", "MyStay.Core\MyStay.Core.csproj", "{37A919E6-551D-46EF-A126-2CECD73CA113}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyStay.Core.Entity", "MyStay.Core.Entity\MyStay.Core.Entity.csproj", "{F03386F2-D022-45D7-9138-46AC893F799C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyStay.Infra", "MyStay.Infra\MyStay.Infra.csproj", "{D699F84A-45F4-4C68-920C-624304A059DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyStayAzureFunctions", "MyStayAzureFunctions\MyStayAzureFunctions.csproj", "{15147A35-056A-4709-8F0A-8A797297332A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7CFD781-70EA-4639-AEFA-C6080DCC184A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7CFD781-70EA-4639-AEFA-C6080DCC184A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7CFD781-70EA-4639-AEFA-C6080DCC184A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7CFD781-70EA-4639-AEFA-C6080DCC184A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37A919E6-551D-46EF-A126-2CECD73CA113}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37A919E6-551D-46EF-A126-2CECD73CA113}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37A919E6-551D-46EF-A126-2CECD73CA113}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37A919E6-551D-46EF-A126-2CECD73CA113}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F03386F2-D022-45D7-9138-46AC893F799C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F03386F2-D022-45D7-9138-46AC893F799C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F03386F2-D022-45D7-9138-46AC893F799C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F03386F2-D022-45D7-9138-46AC893F799C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D699F84A-45F4-4C68-920C-624304A059DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D699F84A-45F4-4C68-920C-624304A059DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D699F84A-45F4-4C68-920C-624304A059DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D699F84A-45F4-4C68-920C-624304A059DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15147A35-056A-4709-8F0A-8A797297332A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15147A35-056A-4709-8F0A-8A797297332A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15147A35-056A-4709-8F0A-8A797297332A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15147A35-056A-4709-8F0A-8A797297332A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{37A919E6-551D-46EF-A126-2CECD73CA113} = {A194CBD7-F942-4A37-8D07-FF913E61BFCD}
+		{F03386F2-D022-45D7-9138-46AC893F799C} = {A194CBD7-F942-4A37-8D07-FF913E61BFCD}
+		{D699F84A-45F4-4C68-920C-624304A059DD} = {8DF4B545-C961-43DA-9424-E4B1D175F418}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {33120882-DA4A-4BDA-9BC5-FD43F0D4D899}
+	EndGlobalSection
+EndGlobal

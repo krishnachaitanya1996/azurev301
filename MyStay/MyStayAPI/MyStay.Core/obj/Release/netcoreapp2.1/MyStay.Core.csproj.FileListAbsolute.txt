@@ -1,0 +1,12 @@
+D:\Azure301\CleanArchitecture\MyStay\MyStay\MyStay.Core\bin\Release\netcoreapp2.1\MyStay.Core.deps.json
+D:\Azure301\CleanArchitecture\MyStay\MyStay\MyStay.Core\bin\Release\netcoreapp2.1\MyStay.Core.dll
+D:\Azure301\CleanArchitecture\MyStay\MyStay\MyStay.Core\bin\Release\netcoreapp2.1\MyStay.Core.pdb
+D:\Azure301\CleanArchitecture\MyStay\MyStay\MyStay.Core\bin\Release\netcoreapp2.1\MyStay.Core.Entity.dll
+D:\Azure301\CleanArchitecture\MyStay\MyStay\MyStay.Core\bin\Release\netcoreapp2.1\MyStay.Core.Entity.pdb
+D:\Azure301\CleanArchitecture\MyStay\MyStay\MyStay.Core\obj\Release\netcoreapp2.1\MyStay.Core.csprojAssemblyReference.cache
+D:\Azure301\CleanArchitecture\MyStay\MyStay\MyStay.Core\obj\Release\netcoreapp2.1\MyStay.Core.csproj.CoreCompileInputs.cache
+D:\Azure301\CleanArchitecture\MyStay\MyStay\MyStay.Core\obj\Release\netcoreapp2.1\MyStay.Core.AssemblyInfoInputs.cache
+D:\Azure301\CleanArchitecture\MyStay\MyStay\MyStay.Core\obj\Release\netcoreapp2.1\MyStay.Core.AssemblyInfo.cs
+D:\Azure301\CleanArchitecture\MyStay\MyStay\MyStay.Core\obj\Release\netcoreapp2.1\MyStay.Core.csproj.CopyComplete
+D:\Azure301\CleanArchitecture\MyStay\MyStay\MyStay.Core\obj\Release\netcoreapp2.1\MyStay.Core.dll
+D:\Azure301\CleanArchitecture\MyStay\MyStay\MyStay.Core\obj\Release\netcoreapp2.1\MyStay.Core.pdb

@@ -1,0 +1,94 @@
+D:\Azure301\CleanArchitecture\MyStay\MyStayMVC\MyStayMVC\bin\Debug\netcoreapp2.1\MyStayMVC.deps.json
+D:\Azure301\CleanArchitecture\MyStay\MyStayMVC\MyStayMVC\bin\Debug\netcoreapp2.1\MyStayMVC.runtimeconfig.json
+D:\Azure301\CleanArchitecture\MyStay\MyStayMVC\MyStayMVC\bin\Debug\netcoreapp2.1\MyStayMVC.runtimeconfig.dev.json
+D:\Azure301\CleanArchitecture\MyStay\MyStayMVC\MyStayMVC\bin\Debug\netcoreapp2.1\MyStayMVC.dll
+D:\Azure301\CleanArchitecture\MyStay\MyStayMVC\MyStayMVC\bin\Debug\netcoreapp2.1\MyStayMVC.pdb
+D:\Azure301\CleanArchitecture\MyStay\MyStayMVC\MyStayMVC\bin\Debug\netcoreapp2.1\MyStayMVC.Views.dll
+D:\Azure301\CleanArchitecture\MyStay\MyStayMVC\MyStayMVC\bin\Debug\netcoreapp2.1\MyStayMVC.Views.pdb
+D:\Azure301\CleanArchitecture\MyStay\MyStayMVC\MyStayMVC\obj\Debug\netcoreapp2.1\MyStayMVC.csprojAssemblyReference.cache
+D:\Azure301\CleanArchitecture\MyStay\MyStayMVC\MyStayMVC\obj\Debug\netcoreapp2.1\MyStayMVC.Utility.Constants.resources
+D:\Azure301\CleanArchitecture\MyStay\MyStayMVC\MyStayMVC\obj\Debug\netcoreapp2.1\MyStayMVC.csproj.GenerateResource.cache
+D:\Azure301\CleanArchitecture\MyStay\MyStayMVC\MyStayMVC\obj\Debug\netcoreapp2.1\MyStayMVC.csproj.CoreCompileInputs.cache
+D:\Azure301\CleanArchitecture\MyStay\MyStayMVC\MyStayMVC\obj\Debug\netcoreapp2.1\MyStayMVC.RazorAssemblyInfo.cache
+D:\Azure301\CleanArchitecture\MyStay\MyStayMVC\MyStayMVC\obj\Debug\netcoreapp2.1\MyStayMVC.RazorAssemblyInfo.cs
+D:\Azure301\CleanArchitecture\MyStay\MyStayMVC\MyStayMVC\obj\Debug\netcoreapp2.1\MyStayMVC.AssemblyInfoInputs.cache
+D:\Azure301\CleanArchitecture\MyStay\MyStayMVC\MyStayMVC\obj\Debug\netcoreapp2.1\MyStayMVC.AssemblyInfo.cs
+D:\Azure301\CleanArchitecture\MyStay\MyStayMVC\MyStayMVC\obj\Debug\netcoreapp2.1\MyStayMVC.TagHelpers.input.cache
+D:\Azure301\CleanArchitecture\MyStay\MyStayMVC\MyStayMVC\obj\Debug\netcoreapp2.1\MyStayMVC.TagHelpers.output.cache
+D:\Azure301\CleanArchitecture\MyStay\MyStayMVC\MyStayMVC\obj\Debug\netcoreapp2.1\MyStayMVC.RazorCoreGenerate.cache
+D:\Azure301\CleanArchitecture\MyStay\MyStayMVC\MyStayMVC\obj\Debug\netcoreapp2.1\Razor\Views\Booking\AddBooking.g.cshtml.cs
+D:\Azure301\CleanArchitecture\MyStay\MyStayMVC\MyStayMVC\obj\Debug\netcoreapp2.1\Razor\Views\Booking\BookingDetails.g.cshtml.cs
+D:\Azure301\CleanArchitecture\MyStay\MyStayMVC\MyStayMVC\obj\Debug\netcoreapp2.1\Razor\Views\Booking\_BookingDetailsList.g.cshtml.cs
+D:\Azure301\CleanArchitecture\MyStay\MyStayMVC\MyStayMVC\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+D:\Azure301\CleanArchitecture\MyStay\MyStayMVC\MyStayMVC\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+D:\Azure301\CleanArchitecture\MyStay\MyStayMVC\MyStayMVC\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+D:\Azure301\CleanArchitecture\MyStay\MyStayMVC\MyStayMVC\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+D:\Azure301\CleanArchitecture\MyStay\MyStayMVC\MyStayMVC\obj\Debug\netcoreapp2.1\Razor\Views\HotelInfo\HotelDetails.g.cshtml.cs
+D:\Azure301\CleanArchitecture\MyStay\MyStayMVC\MyStayMVC\obj\Debug\netcoreapp2.1\Razor\Views\HotelInfo\_HotelInfoList.g.cshtml.cs
+D:\Azure301\CleanArchitecture\MyStay\MyStayMVC\MyStayMVC\obj\Debug\netcoreapp2.1\Razor\Views\Login\Login.g.cshtml.cs
+D:\Azure301\CleanArchitecture\MyStay\MyStayMVC\MyStayMVC\obj\Debug\netcoreapp2.1\Razor\Views\Login\LoginTest.g.cshtml.cs
+D:\Azure301\CleanArchitecture\MyStay\MyStayMVC\MyStayMVC\obj\Debug\netcoreapp2.1\Razor\Views\Login\Register.g.cshtml.cs
+D:\Azure301\CleanArchitecture\MyStay\MyStayMVC\MyStayMVC\obj\Debug\netcoreapp2.1\Razor\Views\Room\RoomDetails.g.cshtml.cs
+D:\Azure301\CleanArchitecture\MyStay\MyStayMVC\MyStayMVC\obj\Debug\netcoreapp2.1\Razor\Views\Room\_RoomDetailsList.g.cshtml.cs
+D:\Azure301\CleanArchitecture\MyStay\MyStayMVC\MyStayMVC\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+D:\Azure301\CleanArchitecture\MyStay\MyStayMVC\MyStayMVC\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+D:\Azure301\CleanArchitecture\MyStay\MyStayMVC\MyStayMVC\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+D:\Azure301\CleanArchitecture\MyStay\MyStayMVC\MyStayMVC\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LoginLayout.g.cshtml.cs
+D:\Azure301\CleanArchitecture\MyStay\MyStayMVC\MyStayMVC\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+D:\Azure301\CleanArchitecture\MyStay\MyStayMVC\MyStayMVC\obj\Debug\netcoreapp2.1\Razor\Views\UploadImage\UploadImage.g.cshtml.cs
+D:\Azure301\CleanArchitecture\MyStay\MyStayMVC\MyStayMVC\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+D:\Azure301\CleanArchitecture\MyStay\MyStayMVC\MyStayMVC\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+D:\Azure301\CleanArchitecture\MyStay\MyStayMVC\MyStayMVC\obj\Debug\netcoreapp2.1\MyStayMVC.RazorTargetAssemblyInfo.cache
+D:\Azure301\CleanArchitecture\MyStay\MyStayMVC\MyStayMVC\obj\Debug\netcoreapp2.1\MyStayMVC.RazorTargetAssemblyInfo.cs
+D:\Azure301\CleanArchitecture\MyStay\MyStayMVC\MyStayMVC\obj\Debug\netcoreapp2.1\MyStayMVC.Views.pdb
+D:\Azure301\CleanArchitecture\MyStay\MyStayMVC\MyStayMVC\obj\Debug\netcoreapp2.1\MyStayMVC.dll
+D:\Azure301\CleanArchitecture\MyStay\MyStayMVC\MyStayMVC\obj\Debug\netcoreapp2.1\MyStayMVC.pdb
+D:\Azure301\CleanArchitecture\MyStay\MyStayMVC\MyStayMVC\obj\Debug\netcoreapp2.1\MyStayMVC.csproj.CopyComplete
+D:\Azure301\CleanArchitecture\MyStay\MyStayMVC\MyStayMVC\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+D:\AZURE 301\ALL SOLUTIONS\VidyaSree_M1045514_MyStay_Clean_Architecture_Final\MyStay\MyStayMVC\MyStayMVC\bin\Debug\netcoreapp2.1\MyStayMVC.deps.json
+D:\AZURE 301\ALL SOLUTIONS\VidyaSree_M1045514_MyStay_Clean_Architecture_Final\MyStay\MyStayMVC\MyStayMVC\bin\Debug\netcoreapp2.1\MyStayMVC.runtimeconfig.json
+D:\AZURE 301\ALL SOLUTIONS\VidyaSree_M1045514_MyStay_Clean_Architecture_Final\MyStay\MyStayMVC\MyStayMVC\bin\Debug\netcoreapp2.1\MyStayMVC.runtimeconfig.dev.json
+D:\AZURE 301\ALL SOLUTIONS\VidyaSree_M1045514_MyStay_Clean_Architecture_Final\MyStay\MyStayMVC\MyStayMVC\bin\Debug\netcoreapp2.1\MyStayMVC.dll
+D:\AZURE 301\ALL SOLUTIONS\VidyaSree_M1045514_MyStay_Clean_Architecture_Final\MyStay\MyStayMVC\MyStayMVC\bin\Debug\netcoreapp2.1\MyStayMVC.pdb
+D:\AZURE 301\ALL SOLUTIONS\VidyaSree_M1045514_MyStay_Clean_Architecture_Final\MyStay\MyStayMVC\MyStayMVC\bin\Debug\netcoreapp2.1\MyStayMVC.Views.dll
+D:\AZURE 301\ALL SOLUTIONS\VidyaSree_M1045514_MyStay_Clean_Architecture_Final\MyStay\MyStayMVC\MyStayMVC\bin\Debug\netcoreapp2.1\MyStayMVC.Views.pdb
+D:\AZURE 301\ALL SOLUTIONS\VidyaSree_M1045514_MyStay_Clean_Architecture_Final\MyStay\MyStayMVC\MyStayMVC\obj\Debug\netcoreapp2.1\MyStayMVC.csprojAssemblyReference.cache
+D:\AZURE 301\ALL SOLUTIONS\VidyaSree_M1045514_MyStay_Clean_Architecture_Final\MyStay\MyStayMVC\MyStayMVC\obj\Debug\netcoreapp2.1\MyStayMVC.Utility.Constants.resources
+D:\AZURE 301\ALL SOLUTIONS\VidyaSree_M1045514_MyStay_Clean_Architecture_Final\MyStay\MyStayMVC\MyStayMVC\obj\Debug\netcoreapp2.1\MyStayMVC.csproj.GenerateResource.cache
+D:\AZURE 301\ALL SOLUTIONS\VidyaSree_M1045514_MyStay_Clean_Architecture_Final\MyStay\MyStayMVC\MyStayMVC\obj\Debug\netcoreapp2.1\MyStayMVC.csproj.CoreCompileInputs.cache
+D:\AZURE 301\ALL SOLUTIONS\VidyaSree_M1045514_MyStay_Clean_Architecture_Final\MyStay\MyStayMVC\MyStayMVC\obj\Debug\netcoreapp2.1\MyStayMVC.RazorAssemblyInfo.cache
+D:\AZURE 301\ALL SOLUTIONS\VidyaSree_M1045514_MyStay_Clean_Architecture_Final\MyStay\MyStayMVC\MyStayMVC\obj\Debug\netcoreapp2.1\MyStayMVC.RazorAssemblyInfo.cs
+D:\AZURE 301\ALL SOLUTIONS\VidyaSree_M1045514_MyStay_Clean_Architecture_Final\MyStay\MyStayMVC\MyStayMVC\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+D:\AZURE 301\ALL SOLUTIONS\VidyaSree_M1045514_MyStay_Clean_Architecture_Final\MyStay\MyStayMVC\MyStayMVC\obj\Debug\netcoreapp2.1\MyStayMVC.AssemblyInfoInputs.cache
+D:\AZURE 301\ALL SOLUTIONS\VidyaSree_M1045514_MyStay_Clean_Architecture_Final\MyStay\MyStayMVC\MyStayMVC\obj\Debug\netcoreapp2.1\MyStayMVC.AssemblyInfo.cs
+D:\AZURE 301\ALL SOLUTIONS\VidyaSree_M1045514_MyStay_Clean_Architecture_Final\MyStay\MyStayMVC\MyStayMVC\obj\Debug\netcoreapp2.1\MyStayMVC.TagHelpers.input.cache
+D:\AZURE 301\ALL SOLUTIONS\VidyaSree_M1045514_MyStay_Clean_Architecture_Final\MyStay\MyStayMVC\MyStayMVC\obj\Debug\netcoreapp2.1\MyStayMVC.TagHelpers.output.cache
+D:\AZURE 301\ALL SOLUTIONS\VidyaSree_M1045514_MyStay_Clean_Architecture_Final\MyStay\MyStayMVC\MyStayMVC\obj\Debug\netcoreapp2.1\MyStayMVC.RazorCoreGenerate.cache
+D:\AZURE 301\ALL SOLUTIONS\VidyaSree_M1045514_MyStay_Clean_Architecture_Final\MyStay\MyStayMVC\MyStayMVC\obj\Debug\netcoreapp2.1\Razor\Views\Booking\AddBooking.g.cshtml.cs
+D:\AZURE 301\ALL SOLUTIONS\VidyaSree_M1045514_MyStay_Clean_Architecture_Final\MyStay\MyStayMVC\MyStayMVC\obj\Debug\netcoreapp2.1\Razor\Views\Booking\BookingDetails.g.cshtml.cs
+D:\AZURE 301\ALL SOLUTIONS\VidyaSree_M1045514_MyStay_Clean_Architecture_Final\MyStay\MyStayMVC\MyStayMVC\obj\Debug\netcoreapp2.1\Razor\Views\Booking\_BookingDetailsList.g.cshtml.cs
+D:\AZURE 301\ALL SOLUTIONS\VidyaSree_M1045514_MyStay_Clean_Architecture_Final\MyStay\MyStayMVC\MyStayMVC\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+D:\AZURE 301\ALL SOLUTIONS\VidyaSree_M1045514_MyStay_Clean_Architecture_Final\MyStay\MyStayMVC\MyStayMVC\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+D:\AZURE 301\ALL SOLUTIONS\VidyaSree_M1045514_MyStay_Clean_Architecture_Final\MyStay\MyStayMVC\MyStayMVC\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+D:\AZURE 301\ALL SOLUTIONS\VidyaSree_M1045514_MyStay_Clean_Architecture_Final\MyStay\MyStayMVC\MyStayMVC\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+D:\AZURE 301\ALL SOLUTIONS\VidyaSree_M1045514_MyStay_Clean_Architecture_Final\MyStay\MyStayMVC\MyStayMVC\obj\Debug\netcoreapp2.1\Razor\Views\HotelInfo\HotelDetails.g.cshtml.cs
+D:\AZURE 301\ALL SOLUTIONS\VidyaSree_M1045514_MyStay_Clean_Architecture_Final\MyStay\MyStayMVC\MyStayMVC\obj\Debug\netcoreapp2.1\Razor\Views\HotelInfo\_HotelInfoList.g.cshtml.cs
+D:\AZURE 301\ALL SOLUTIONS\VidyaSree_M1045514_MyStay_Clean_Architecture_Final\MyStay\MyStayMVC\MyStayMVC\obj\Debug\netcoreapp2.1\Razor\Views\Login\Login.g.cshtml.cs
+D:\AZURE 301\ALL SOLUTIONS\VidyaSree_M1045514_MyStay_Clean_Architecture_Final\MyStay\MyStayMVC\MyStayMVC\obj\Debug\netcoreapp2.1\Razor\Views\Login\LoginTest.g.cshtml.cs
+D:\AZURE 301\ALL SOLUTIONS\VidyaSree_M1045514_MyStay_Clean_Architecture_Final\MyStay\MyStayMVC\MyStayMVC\obj\Debug\netcoreapp2.1\Razor\Views\Login\Register.g.cshtml.cs
+D:\AZURE 301\ALL SOLUTIONS\VidyaSree_M1045514_MyStay_Clean_Architecture_Final\MyStay\MyStayMVC\MyStayMVC\obj\Debug\netcoreapp2.1\Razor\Views\Room\RoomDetails.g.cshtml.cs
+D:\AZURE 301\ALL SOLUTIONS\VidyaSree_M1045514_MyStay_Clean_Architecture_Final\MyStay\MyStayMVC\MyStayMVC\obj\Debug\netcoreapp2.1\Razor\Views\Room\_RoomDetailsList.g.cshtml.cs
+D:\AZURE 301\ALL SOLUTIONS\VidyaSree_M1045514_MyStay_Clean_Architecture_Final\MyStay\MyStayMVC\MyStayMVC\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+D:\AZURE 301\ALL SOLUTIONS\VidyaSree_M1045514_MyStay_Clean_Architecture_Final\MyStay\MyStayMVC\MyStayMVC\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+D:\AZURE 301\ALL SOLUTIONS\VidyaSree_M1045514_MyStay_Clean_Architecture_Final\MyStay\MyStayMVC\MyStayMVC\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+D:\AZURE 301\ALL SOLUTIONS\VidyaSree_M1045514_MyStay_Clean_Architecture_Final\MyStay\MyStayMVC\MyStayMVC\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LoginLayout.g.cshtml.cs
+D:\AZURE 301\ALL SOLUTIONS\VidyaSree_M1045514_MyStay_Clean_Architecture_Final\MyStay\MyStayMVC\MyStayMVC\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+D:\AZURE 301\ALL SOLUTIONS\VidyaSree_M1045514_MyStay_Clean_Architecture_Final\MyStay\MyStayMVC\MyStayMVC\obj\Debug\netcoreapp2.1\Razor\Views\UploadImage\UploadImage.g.cshtml.cs
+D:\AZURE 301\ALL SOLUTIONS\VidyaSree_M1045514_MyStay_Clean_Architecture_Final\MyStay\MyStayMVC\MyStayMVC\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+D:\AZURE 301\ALL SOLUTIONS\VidyaSree_M1045514_MyStay_Clean_Architecture_Final\MyStay\MyStayMVC\MyStayMVC\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+D:\AZURE 301\ALL SOLUTIONS\VidyaSree_M1045514_MyStay_Clean_Architecture_Final\MyStay\MyStayMVC\MyStayMVC\obj\Debug\netcoreapp2.1\MyStayMVC.RazorTargetAssemblyInfo.cache
+D:\AZURE 301\ALL SOLUTIONS\VidyaSree_M1045514_MyStay_Clean_Architecture_Final\MyStay\MyStayMVC\MyStayMVC\obj\Debug\netcoreapp2.1\MyStayMVC.RazorTargetAssemblyInfo.cs
+D:\AZURE 301\ALL SOLUTIONS\VidyaSree_M1045514_MyStay_Clean_Architecture_Final\MyStay\MyStayMVC\MyStayMVC\obj\Debug\netcoreapp2.1\MyStayMVC.Views.pdb
+D:\AZURE 301\ALL SOLUTIONS\VidyaSree_M1045514_MyStay_Clean_Architecture_Final\MyStay\MyStayMVC\MyStayMVC\obj\Debug\netcoreapp2.1\MyStayMVC.dll
+D:\AZURE 301\ALL SOLUTIONS\VidyaSree_M1045514_MyStay_Clean_Architecture_Final\MyStay\MyStayMVC\MyStayMVC\obj\Debug\netcoreapp2.1\MyStayMVC.pdb
+D:\AZURE 301\ALL SOLUTIONS\VidyaSree_M1045514_MyStay_Clean_Architecture_Final\MyStay\MyStayMVC\MyStayMVC\obj\Debug\netcoreapp2.1\MyStayMVC.csproj.CopyComplete

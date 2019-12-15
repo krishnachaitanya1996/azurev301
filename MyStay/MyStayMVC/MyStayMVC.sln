@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyStayMVC", "MyStayMVC\MyStayMVC.csproj", "{8FC2BF6C-EF07-47E3-BF2F-FE618EB2C801}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8FC2BF6C-EF07-47E3-BF2F-FE618EB2C801}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FC2BF6C-EF07-47E3-BF2F-FE618EB2C801}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FC2BF6C-EF07-47E3-BF2F-FE618EB2C801}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FC2BF6C-EF07-47E3-BF2F-FE618EB2C801}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7D373AB5-00FB-47FD-AADA-490F16E0CF51}
+	EndGlobalSection
+EndGlobal

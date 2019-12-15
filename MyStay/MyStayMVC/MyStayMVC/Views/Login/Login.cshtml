@@ -1,0 +1,86 @@
+﻿@inject IAuthenticationSchemeProvider SchemeProvider
+@using Microsoft.AspNetCore.Authentication
+@model MyStayMVC.Models.Login
+@{
+    ViewBag.Title = "UserLogin";
+    Layout = "~/Views/Shared/_LoginLayout.cshtml";
+}
+
+
+<div class="login-box">
+    <div class="login-box-body">
+        @if (ViewBag.Message != null)
+        {
+            <div class="label-danger" style="text-align:center;">
+                @ViewBag.Message
+            </div>
+        }
+        <div class="login-logo">
+            <a href="">MyStay App</a>
+        </div>
+
+
+        @*<div class="btn-group" role="group">
+            @foreach (var provider in await SchemeProvider.GetRequestHandlerSchemesAsync())
+            {
+                <a class="btn btn-lg btn-default"
+                   asp-route-returnUrl="@Context.Request.Query["returnUrl"]"
+                   asp-route-provider="@provider.Name"
+                   asp-action="LoginTest">@provider.Name</a>
+            }
+        </div>*@
+
+        @using (Html.BeginForm("Login", "LogIn", FormMethod.Post, new { @id = "SubmitLogon" }))
+        {
+            <div class="form-group has-feedback">
+                @Html.TextBoxFor(model => model.UserName, new { @name = "UserName", @autocomplete = "off", @id = "UserName", @class = "form-control", @placeholder = "Enter UserName" })
+                @Html.ValidationMessageFor(model => model.UserName, "", new { @class = "label label-danger" })
+
+                @*@Html.TextBox("Name", null, new { @class = "form-control", @placeholder = "Enter UserEmail" })*@
+                <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+            </div>
+            <div class="form-group has-feedback">
+                @Html.PasswordFor(model => model.Password, new { @name = "Password", @autocomplete = "off", @id = "Password", @class = "form-control", @placeholder = "Enter password" })
+                @Html.ValidationMessageFor(model => model.Password, "", new { @class = "label label-danger" })
+
+                <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+            </div>
+            <div class="row">
+                <div class="col-xs-8">
+                    <div class="checkbox">
+                        <a href=@Url.Action("Register","LogIn") class="text-center">Register User</a>
+                        @*<label>
+                            @Html.CheckBoxFor(model => model.IsAdmin) IsAdmin
+                        </label>*@
+                    </div>
+                </div>
+                @*<div class="btn-group" role="group">
+                    @foreach (var provider in await SchemeProvider.GetRequestHandlerSchemesAsync())
+                    {
+                        <a class="btn btn-lg btn-default"
+                          asp-route-returnUrl="@Context.Request.Query["returnUrl"]"
+                   asp-route-provider="@provider.Name"
+                         asp-controller="HotelInfo"
+                           asp-action="HotelDetails">@provider.Name</a>
+                    }
+                </div>*@
+
+                <div class="col-xs-3" style="margin-left:29px;">
+                    <button type="submit" class="btn btn-primary btn-block btn-flat">Login</button>
+                </div>
+            </div>
+        }
+        <div class="col-xs-4">
+            <div class="btn btn-primary btn-block btn-flat" style="margin-top:-40px;margin-left: 155px;">
+                @foreach (var provider in await SchemeProvider.GetRequestHandlerSchemesAsync())
+                {
+                <a class="btn-primary"
+                   asp-route-returnUrl="@Context.Request.Query["returnUrl"]"
+                   asp-route-provider="@provider.Name"
+                   asp-action="LoginFacebook"><i class="icon-@provider.Name">@provider.Name</a>
+                }
+            </div>
+        </div>
+        @*<a href="#">I forgot my password</a><br>*@
+    </div>
+</div>

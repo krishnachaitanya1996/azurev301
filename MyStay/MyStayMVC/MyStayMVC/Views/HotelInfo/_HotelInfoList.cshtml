@@ -1,0 +1,32 @@
+﻿<div id="divHotelInfoDetails">
+    @if (Model.lstHotelInfo.Count > 0)
+    {
+        <table class="table table-hover table-striped table-responsive">
+            <thead font-weight:bold;" style="background-color:#d3d3d36e;">
+                <tr>
+                    <th>Hotel Name</th>
+                    <th>Address</th>
+                    <th>Rooms</th>
+                </tr>
+            </thead>
+            @foreach (HotelInfo oHotelInfo in Model.lstHotelInfo)
+            {
+                <tr style="line-height:14px;">
+                    <td>@oHotelInfo.Name</td>
+                    <td>@oHotelInfo.Address</td>
+                    <td>
+                        <a href="@Url.Action("GetRoomDetails", "Room", new { ID = oHotelInfo.ID.ToString(),HotelName = oHotelInfo.Name })">
+                           Room Details
+                        </a>
+                    </td>
+                </tr>
+            }
+        </table>
+    }
+    else
+    {
+        <div>
+            No Hotels found
+        </div>
+    }
+</div>

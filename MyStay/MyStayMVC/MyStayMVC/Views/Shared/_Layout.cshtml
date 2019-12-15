@@ -1,0 +1,184 @@
+﻿@using MyStayMVC.Utility;
+@using Microsoft.AspNetCore.Http;
+@inject IHttpContextAccessor HttpContextAccessor
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>MyStay</title>
+
+    <!--=== CSS ===-->
+    <!-- Bootstrap -->
+    @*<link href="~/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">*@
+
+
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    @*<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />*@
+    @*<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />*@
+    <!-- Theme -->
+    <link href="~/assets/css/main.css" rel="stylesheet" type="text/css">
+    <link href="~/assets/css/responsive.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="~/assets/css/fontawesome/font-awesome.min.css">
+
+    <!--=== JavaScript ===-->
+    <script type="text/javascript" src="~/assets/js/libs/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="~/plugins/jquery-ui/jquery-ui-1.10.2.custom.min.js"></script>
+    @*<script type="text/javascript" src="~/bootstrap/js/bootstrap.min.js"></script>*@
+    @*<script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>*@
+
+    @*<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">*@
+    @*<link href="~/css/custom.css" rel="stylesheet" />*@
+
+
+    <!-- General -->
+    <script src="~/assets/js/libs/breakpoints.js"></script>
+    <script src="~/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+    <script src="~/plugins/typeahead/typeahead.min.js"></script>
+    <script src="~/plugins/tagsinput/jquery.tagsinput.min.js"></script>
+    <script src="~/plugins/select2/select2.min.js"></script>
+
+    <!-- Charts -->
+    <script type="text/javascript" src="~/plugins/sparkline/jquery.sparkline.min.js"></script>
+
+    <!-- Form Validation -->
+
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+    <script type="text/javascript" src="~/plugins/validation/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="~/plugins/validation/additional-methods.min.js"></script>
+
+    <!-- Noty -->
+    <script type="text/javascript" src="~/plugins/noty/jquery.noty.js"></script>
+    <script type="text/javascript" src="~/plugins/noty/layouts/top.js"></script>
+    <script type="text/javascript" src="~/plugins/noty/themes/default.js"></script>
+
+    <!-- App -->
+    <script type="text/javascript" src="~/assets/js/app.js"></script>
+    <script type="text/javascript" src="~/assets/js/plugins.js"></script>
+    <script type="text/javascript" src="~/assets/js/plugins.form-components.js"></script>
+
+    <!-- Demo JS -->
+    <script type="text/javascript" src="~/assets/js/custom.js"></script>
+    <script type="text/javascript" src="~/assets/js/demo/form_validation.js"></script>
+    <script src="~/assets/js/demo/form_components.js"></script>
+    <link href="~/assets/css/Custom.css" rel="stylesheet" />
+
+    <script src="~/lib/jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <script src="~/lib/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <link href="~/lib/jquery-ui-1.12.1.custom/jquery-ui.css" rel="stylesheet" />
+
+    @*<script data-main="~/assets/js/app.js" src="~/assets/js/require.js"></script>*@
+    <script>
+        $(document).ready(function () {
+            "use strict";
+
+            App.init(); // Init layout and core plugins
+            Plugins.init(); // Init all plugins
+            FormComponents.init(); // Init all form-specific plugins
+        });
+    </script>
+
+    @*<script src="~/Popup.js"></script>*@
+</head>
+<body class="breakpoint-1200" style="padding:5px;">
+
+    <!-- Header -->
+    <header class="header navbar navbar-fixed-top" role="banner" style="background-color:#f39105;padding-top: 0.3125rem;padding-bottom: 0.3125rem;">
+        <!-- Top Navigation Bar -->
+        <!-- Only visible on smartphones, menu toggle -->
+        <div class="container">
+            
+
+            <!-- Logo -->
+            <a class="navbar-brand" href="@Url.Action("HotelDetails","HotelInfo")">
+                MyStay @*<img src="~/images/MindtreeLogo.png" alt="logo" style="width:60%;">*@
+            </a>
+          
+
+            <ul class="nav navbar-nav navbar-right" style="margin-right: -50px;">
+                <!-- User Login Dropdown -->
+                <li class="dropdown user">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        <i class="icon-male"></i>
+                        <span class="username">
+                            @if (User.Identity.IsAuthenticated)
+                            {
+                                @User.Identity.Name
+                            }
+                            else
+                            {
+                                @HttpContextAccessor.HttpContext.Session.GetString("UserName")
+                            }
+                        </span>
+                        <i class="icon-caret-down small"></i>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="@Url.Action("Logout","LogIn")"><i class="icon-key"></i> Log Out</a></li>
+                    </ul>
+                </li>
+                <!-- /user login dropdown -->
+            </ul>
+           
+        </div>
+        <!-- /Sidebar Toggler -->
+        <!-- Top Right Menu -->
+        <!-- /Top Right Menu -->
+        <!-- /top navigation bar -->
+
+    </header> <!-- /.header -->
+    <nav class="navbar-expand-sm bg-light" style="padding-top: 60px;">
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link @(ViewBag.Active=="HotelInfo"?"active topmenuActive":"")" asp-area="" asp-controller="HotelInfo" asp-action="HotelDetails" style="color:black">HOTEL INFO </a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link @(ViewBag.Active=="Booking"?"active topmenuActive":"")" asp-area="" asp-controller="Booking" asp-action="BookingDetails" style="color:black">BOOKING</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link @(ViewBag.Active=="UploadImage"?"active topmenuActive":"")" asp-area="" asp-controller="UploadImage" asp-action="UploadImage" style="color:black">UPLOAD IMAGE</a>
+            </li>
+        </ul>
+        </nav>
+        <div class="body-content minheight_450">
+            @*<div class="tab-pane active" id="tab_1_1">
+                      @Html.RenderAction("HotelDetails", "HotelInfo"  )
+                </div>
+                <div class="tab-pane" id="tab_1_2">
+                    <p>I'm in Section 2.</p>
+                </div>
+                <div class="tab-pane" id="tab_1_3">
+                    <p>I'm in Section 3.</p>
+                </div>*@
+            @RenderBody()
+
+        </div>
+        @*<div id="container" class="fixed-header">
+                <div id="sidebar" class="sidebar-fixed">
+                    <div class="slimScrollDiv" style="position: relative; overflow: hidden; width: auto; height: 100%;">
+                        <div id="sidebar-content" style="overflow: hidden; width: auto; height: 100%;">
+
+                            <!--=== Navigation ===-->
+
+
+                            <!-- /Navigation -->
+                        </div><div class="slimScrollBar" style="background: rgb(0, 0, 0); width: 7px; position: absolute; top: 0px; opacity: 0.4; display: none; border-radius: 7px; z-index: 99; right: 1px; height: 579px;"></div><div class="slimScrollRail" style="width: 7px; height: 100%; position: absolute; top: 0px; display: none; border-radius: 7px; background: rgb(51, 51, 51); opacity: 0.2; z-index: 90; right: 1px;"></div>
+                    </div>
+                    <div id="divider" class="resizeable"></div>
+                </div>
+                <!-- /Sidebar -->
+
+                <div id="content">
+                    @RenderBody()
+                </div>
+            </div>*@
+        
+
+        @RenderSection("Scripts", required: false)
+
+</body>
+</html>

@@ -1,0 +1,52 @@
+﻿@model MyStayMVC.Models.Booking
+@{
+    ViewData["Title"] = "BookingDetails";
+    ViewBag.Active = "Booking";
+}
+
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#StartDate").datepicker();
+        $("#EndDate").datepicker();
+    });
+</script>
+<div class="widget box">
+    <div class="widget-header">
+        <h4><i class="icon-reorder"></i> Booking Details</h4>
+        <div class="col-md-1 " style="float:right;">
+            <button type="button" class="btn btncusCancel btn-block btn-flat" onclick="location.href='@Url.Action("AddBooking","Booking")'">Add</button>
+        </div>
+    </div>
+    <div class="widget-content">
+        @using (Html.BeginForm("BookingDetails", "Booking", FormMethod.Post, new { @id = "SubmitBookingDetails" }))
+        {
+            <div class="row">
+                <div class="form-group  col-md-3">
+
+                    @Html.DropDownListFor(model => model.ParentHotelID,
+                                           (IEnumerable<SelectListItem>)(ViewBag.lstHotelInfo), "--Select Hotel --",
+                                            new {@class = "form-control", data_val = false })
+                </div>
+                <div class="form-group col-md-3">
+                    @Html.DropDownListFor(model => model.ParentRoomID,
+                                         (IEnumerable<SelectListItem>)(ViewBag.lstRooms), "-- Select Room Number --",
+                                        new {@class = "form-control", data_val = false })
+                </div>
+                <div class="form-group  col-md-2">
+                    @Html.TextBoxFor(model => model.StartDate, new { @autocomplete = "off", @class = "form-control", @placeholder = "Select Start Date" })
+                </div>
+                <div class="form-group  col-md-2">
+                    @Html.TextBoxFor(model => model.EndDate, new { @autocomplete = "off", @class = "form-control", @placeholder = "Select End Date" })
+                </div>
+                <div class="form-group col-md-1a">
+                    <button type="submit" class="btn btncusCancel btn-block btn-flat">Search</button>
+                </div>
+            </div>
+        }
+        @Html.Partial("~/Views/Booking/_BookingDetailsList.cshtml")
+    </div>
+
+</div>
+<!-- /Validation Example 1 -->

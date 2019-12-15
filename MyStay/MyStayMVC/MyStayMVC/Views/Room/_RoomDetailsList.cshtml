@@ -1,0 +1,34 @@
+﻿<div id="divRoomDetails">
+    @if (Model.Count > 0)
+    {
+        <table class="table table-hover table-striped table-responsive">
+            <thead font-weight:bold;" style="background-color:#d3d3d36e;">
+                <tr>
+                    <th>Room Number</th>
+                    <th>Room Type</th>
+                    <th>Service</th>
+                    <th>Number of Beds</th>
+                    <th>Price</th>
+                    @*<th>Room Status</th>*@
+                </tr>
+            </thead>
+            @foreach (RoomDetails oRoomDetails in Model)
+            {
+            <tr style="line-height:14px;">
+                <td>@oRoomDetails.RoomNumber</td>
+                <td>@oRoomDetails.RoomType</td>
+                <td>@oRoomDetails.Service</td>
+                <td>@oRoomDetails.NumberofBeds</td>
+                <td>@oRoomDetails.Price</td>
+                @*<td>@oRoomDetails.RoomStatus</td>*@
+            </tr>
+            }
+        </table>
+    }
+    else
+    {
+        <div>
+            No Rooms found
+        </div>
+    }
+</div>

@@ -1,0 +1,35 @@
+﻿@using Microsoft.WindowsAzure.Storage.Blob;
+@model List<IListBlobItem>
+
+@{
+    ViewData["Title"] = "UploadImage";
+    ViewBag.Active = "UploadImage";
+}
+
+
+<div class="widget box">
+    <div class="widget-header">
+        <h4><i class="icon-reorder"></i> Upload Image to Azure Blob Storage</h4>
+    </div>
+    <div class="widget-content">
+        @using (Html.BeginForm("SubmitImage", "UploadImage", FormMethod.Post, new { enctype = "multipart/form-data" }))
+        {
+            <div class="row">
+                <div class="col-md-6">
+                    <input type="file" id="fUpload" name="files" multiple class="form-control" />
+                </div>
+                <div class="col-md-6" style="padding-top:10px;">
+                    <input type="submit" id="btnUpload" value="Upload" />
+                </div>
+            </div>
+        }
+
+        <div class="row" style="padding-top:10px;">
+            @foreach (var image in Model)
+            {
+                <img src="@image.Uri.AbsoluteUri" Height="100" Width="100">
+            }
+        </div>
+    </div>
+
+</div>

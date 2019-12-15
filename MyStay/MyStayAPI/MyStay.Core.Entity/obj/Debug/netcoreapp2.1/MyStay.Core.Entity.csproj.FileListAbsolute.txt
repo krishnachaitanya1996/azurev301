@@ -1,0 +1,27 @@
+D:\Azure301\CleanArchitecture\MyStay\MyStay\MyStay.Core.Entity\bin\Debug\netcoreapp2.1\MyStay.Core.Entity.deps.json
+D:\Azure301\CleanArchitecture\MyStay\MyStay\MyStay.Core.Entity\bin\Debug\netcoreapp2.1\MyStay.Core.Entity.dll
+D:\Azure301\CleanArchitecture\MyStay\MyStay\MyStay.Core.Entity\bin\Debug\netcoreapp2.1\MyStay.Core.Entity.pdb
+D:\Azure301\CleanArchitecture\MyStay\MyStay\MyStay.Core.Entity\obj\Debug\netcoreapp2.1\MyStay.Core.Entity.csprojAssemblyReference.cache
+D:\Azure301\CleanArchitecture\MyStay\MyStay\MyStay.Core.Entity\obj\Debug\netcoreapp2.1\MyStay.Core.Entity.csproj.CoreCompileInputs.cache
+D:\Azure301\CleanArchitecture\MyStay\MyStay\MyStay.Core.Entity\obj\Debug\netcoreapp2.1\MyStay.Core.Entity.AssemblyInfoInputs.cache
+D:\Azure301\CleanArchitecture\MyStay\MyStay\MyStay.Core.Entity\obj\Debug\netcoreapp2.1\MyStay.Core.Entity.AssemblyInfo.cs
+D:\Azure301\CleanArchitecture\MyStay\MyStay\MyStay.Core.Entity\obj\Debug\netcoreapp2.1\MyStay.Core.Entity.dll
+D:\Azure301\CleanArchitecture\MyStay\MyStay\MyStay.Core.Entity\obj\Debug\netcoreapp2.1\MyStay.Core.Entity.pdb
+D:\Azure301\CleanArchitecture\MyStay\MyStayAPI\MyStay.Core.Entity\bin\Debug\netcoreapp2.1\MyStay.Core.Entity.deps.json
+D:\Azure301\CleanArchitecture\MyStay\MyStayAPI\MyStay.Core.Entity\bin\Debug\netcoreapp2.1\MyStay.Core.Entity.dll
+D:\Azure301\CleanArchitecture\MyStay\MyStayAPI\MyStay.Core.Entity\bin\Debug\netcoreapp2.1\MyStay.Core.Entity.pdb
+D:\Azure301\CleanArchitecture\MyStay\MyStayAPI\MyStay.Core.Entity\obj\Debug\netcoreapp2.1\MyStay.Core.Entity.csprojAssemblyReference.cache
+D:\Azure301\CleanArchitecture\MyStay\MyStayAPI\MyStay.Core.Entity\obj\Debug\netcoreapp2.1\MyStay.Core.Entity.csproj.CoreCompileInputs.cache
+D:\Azure301\CleanArchitecture\MyStay\MyStayAPI\MyStay.Core.Entity\obj\Debug\netcoreapp2.1\MyStay.Core.Entity.AssemblyInfoInputs.cache
+D:\Azure301\CleanArchitecture\MyStay\MyStayAPI\MyStay.Core.Entity\obj\Debug\netcoreapp2.1\MyStay.Core.Entity.AssemblyInfo.cs
+D:\Azure301\CleanArchitecture\MyStay\MyStayAPI\MyStay.Core.Entity\obj\Debug\netcoreapp2.1\MyStay.Core.Entity.dll
+D:\Azure301\CleanArchitecture\MyStay\MyStayAPI\MyStay.Core.Entity\obj\Debug\netcoreapp2.1\MyStay.Core.Entity.pdb
+D:\AZURE 301\ALL SOLUTIONS\VidyaSree_M1045514_MyStay_Clean_Architecture_Final\MyStay\MyStayAPI\MyStay.Core.Entity\bin\Debug\netcoreapp2.1\MyStay.Core.Entity.deps.json
+D:\AZURE 301\ALL SOLUTIONS\VidyaSree_M1045514_MyStay_Clean_Architecture_Final\MyStay\MyStayAPI\MyStay.Core.Entity\bin\Debug\netcoreapp2.1\MyStay.Core.Entity.dll
+D:\AZURE 301\ALL SOLUTIONS\VidyaSree_M1045514_MyStay_Clean_Architecture_Final\MyStay\MyStayAPI\MyStay.Core.Entity\bin\Debug\netcoreapp2.1\MyStay.Core.Entity.pdb
+D:\AZURE 301\ALL SOLUTIONS\VidyaSree_M1045514_MyStay_Clean_Architecture_Final\MyStay\MyStayAPI\MyStay.Core.Entity\obj\Debug\netcoreapp2.1\MyStay.Core.Entity.csprojAssemblyReference.cache
+D:\AZURE 301\ALL SOLUTIONS\VidyaSree_M1045514_MyStay_Clean_Architecture_Final\MyStay\MyStayAPI\MyStay.Core.Entity\obj\Debug\netcoreapp2.1\MyStay.Core.Entity.csproj.CoreCompileInputs.cache
+D:\AZURE 301\ALL SOLUTIONS\VidyaSree_M1045514_MyStay_Clean_Architecture_Final\MyStay\MyStayAPI\MyStay.Core.Entity\obj\Debug\netcoreapp2.1\MyStay.Core.Entity.AssemblyInfoInputs.cache
+D:\AZURE 301\ALL SOLUTIONS\VidyaSree_M1045514_MyStay_Clean_Architecture_Final\MyStay\MyStayAPI\MyStay.Core.Entity\obj\Debug\netcoreapp2.1\MyStay.Core.Entity.AssemblyInfo.cs
+D:\AZURE 301\ALL SOLUTIONS\VidyaSree_M1045514_MyStay_Clean_Architecture_Final\MyStay\MyStayAPI\MyStay.Core.Entity\obj\Debug\netcoreapp2.1\MyStay.Core.Entity.dll
+D:\AZURE 301\ALL SOLUTIONS\VidyaSree_M1045514_MyStay_Clean_Architecture_Final\MyStay\MyStayAPI\MyStay.Core.Entity\obj\Debug\netcoreapp2.1\MyStay.Core.Entity.pdb
